@@ -6,7 +6,7 @@ const baseClassName = 'job';
 const Job = ({ company, roles, dates }) => (
   <li className={baseClassName}>
     <h3 className={`${baseClassName}__company`}>
-      <img className={`${baseClassName}__company__image`} src={`./components/Job/images/${company.toLowerCase().replace(/ /g, '')}.svg`} alt={company} />
+      <img className={`${baseClassName}__company__image`} src={`./components/Job/images/${company.replace(/ /g, '')}.svg`} alt={company} />
       <p className={`${baseClassName}__roles__role__duration`}>{company}</p>
       <p className={`${baseClassName}__roles__role__duration`}>{dates}</p>
     </h3>
