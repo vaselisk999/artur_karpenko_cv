@@ -27,6 +27,12 @@ To ensure code consistency linting was introduced. It uses AirBnb setup with min
 ```
 npm run lint
 ```
+## Mock-Up
+
+The following image shows the web application's appearance and functionality:
+
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](./assets/screenshot.png)
+
 
 ## TODO
 - fetch data rather than bundling it in and improve caching;
