@@ -1,0 +1,83 @@
+@import '~normalize.css/normalize';
+
+body {
+  background-color: $body-background;
+  color: $text-color;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+
+  @media screen and (min-width: $tablet-landscape) {
+    font-size: 16px;
+  }
+}
+
+main {
+  background-color: $main-background;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: $base-spacing * 2 $base-spacing * 2;
+  @media screen and (min-width: $mobile-landscape) {
+    padding-left: $base-spacing * 4;
+    padding-right: $base-spacing * 4;
+  }
+  @media screen and (min-width: $tablet-landscape) {
+    padding-left: $base-spacing * 8;
+    padding-right: $base-spacing * 8;
+  }
+  @media print {
+    background-color: #FFF;
+  }
+}
+
+section {
+  margin-bottom: $base-spacing * 8;
+  @media print {
+    margin-bottom: $base-spacing * 3;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+h2 {
+  color: $text-highlight;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-top: 0;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $mobile-landscape) {
+    font-size: 3rem;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+.hide-a11y {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+.sub-title {
+  margin-bottom: 3px;
+  margin-top: 15px;
+  font-size: 0.90rem;
+
+  &:first-child {
+    position: relative;
+    top: -5px;
+  }
+}

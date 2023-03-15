@@ -1,0 +1,41 @@
+@import '../Skill/style';
+
+.skills {
+  @media screen and (min-width: $tablet-portrait), print {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__heading {
+    margin-bottom: $base-spacing * 3;
+    @media screen and (min-width: $tablet-portrait), print {
+      flex-basis: 100%;
+    }
+  }
+
+  &__subsection {
+    &:first-of-type {
+      margin-bottom: $base-spacing * 6;
+      @media screen and (min-width: $tablet-portrait) {
+        margin-bottom: 0;
+      }
+    }
+
+    @media screen and (min-width: $tablet-portrait), print {
+      flex-basis: 48%;
+
+      &:first-of-type {
+        margin-right: 2%;
+      }
+
+      &:last-of-type {
+        margin-left: 2%;
+      }
+    }
+
+    &__heading {
+      margin: 0 0 $base-spacing * 3;
+      text-transform: uppercase;
+    }
+  }
+}

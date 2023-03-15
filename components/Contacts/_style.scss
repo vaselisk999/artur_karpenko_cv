@@ -1,0 +1,56 @@
+.contacts {
+  margin: 0 0 $base-spacing * 2;
+
+  @media screen and (min-width: $mobile-landscape) {
+    text-align: right;
+  }
+
+  &__contact {
+    display: inline-block;
+    margin-right: $base-spacing;
+
+    @media screen and (min-width: $mobile-landscape) {
+      margin-right: $base-spacing * 3;
+    }
+
+    @media screen and (min-width: $tablet-portrait) {
+      margin-right: $base-spacing * 4;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &__link {
+      display: block;
+      height: 40px;
+
+      @media print {
+        align-items: center;
+        display: flex;
+      }
+
+      @media screen and (min-width: $tablet-portrait) {
+        height: 50px;
+      }
+
+      &__image {
+        height: 100%;
+
+        @media print {
+          margin-right: $base-spacing;
+        }
+      }
+
+      &__print {
+        display: none;
+
+        @media print {
+          color: $text-color;
+          display: block;
+          text-decoration-color: $text-color;
+        }
+      }
+    }
+  }
+}

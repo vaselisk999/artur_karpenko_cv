@@ -1,0 +1,23 @@
+.education {
+  &__institutions {
+    &__institution {
+      margin-bottom: $base-spacing * 5;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &__name {
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      &__dates {
+        font-size: .75rem;
+        font-weight: 700;
+        margin-bottom: $base-spacing * 2;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

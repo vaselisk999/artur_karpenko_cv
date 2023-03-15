@@ -1,0 +1,80 @@
+@import '../Contacts/style';
+
+.header {
+  &__name {
+    font-size: 2.8rem;
+    font-weight: 400;
+    margin: 0 0 $base-spacing;
+    text-transform: uppercase;
+
+    @media screen and (min-width: $mobile-landscape) {
+      font-size: 5rem;
+    }
+
+    @media screen and (min-width: $tablet-landscape) {
+      border-left: $base-spacing * 4 solid $highlighter-background;
+      font-size: 7rem;
+      padding-left: $base-spacing * 5;
+    }
+
+    &__highlight {
+      color: $text-highlight;
+      display: block;
+      font-weight: 700;
+    }
+  }
+
+  &__whoiam {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: $base-spacing * 5;
+    text-transform: uppercase;
+
+    @media screen and (min-width: $tablet-landscape) {
+      font-size: 1.5rem;
+      margin-bottom: $base-spacing * 9;
+    }
+  }
+
+  &__about-me {
+    line-height: 1.5;
+    margin: 0 0 $base-spacing * 2;
+  }
+}
+
+.read-more {
+  &__trigger {
+    background: none;
+    border: 0;
+    margin-bottom: $base-spacing * 3;
+    padding: 0;
+
+    @media screen and (min-width: $tablet-portrait), print {
+      display: none;
+    }
+
+    &::after {
+      background-color: $text-highlight;
+      content: '';
+      display: block;
+      height: 3px;
+      margin-top: $base-spacing / 4;
+      width: 100%;
+    }
+  }
+
+  &__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .7s ease-out;
+
+    @media screen and (min-width: $tablet-portrait), print {
+      max-height: 1200px;
+    }
+
+    &--open {
+      max-height: 1000px;
+      transition: max-height .7s ease-in;
+    }
+  }
+}

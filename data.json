@@ -1,0 +1,200 @@
+{
+  "name": "Artur",
+  "surname": "Karpenko",
+  "whoiam": "Web Developer, Digital Designer",
+  "aboutMe": [
+    "A <strong>hard working</strong> and <strong>highly motivated</strong> specialist with more than 13 years of tech industry experience including a wide variety of project work. Able to learn new technologies fast, adapt to different teams and communicate effectively. With extensive knowledge of betting applications, I would like the opportunity to explore other fields and use my highly transferrable skills gained through the years in a creative, developer environment."
+  ],
+  "contacts": {
+    "email": {
+      "printText": "vaselisk999@gmail.com",
+      "link": "mailto:vaselisk999@gmail.com"
+    },
+    "linkedin": {
+      "printText": "Artur Karpenko",
+      "link": "https://www.linkedin.com/in/artur-karpenko-a0515b168/"
+    },
+    "github": {
+      "printText": "https://github.com/vaselisk999",
+      "link": "https://github.com/vaselisk999"
+    }
+  },
+  "email": "vaselisk999@gmail.com",
+  "skills": {
+    "technical": [
+      {
+        "name": "Javascript",
+        "additionalInfo": "ES6 onwards, React, React Native, Typescript, JQuery, Node.js",
+        "level": "4.5"
+      },
+      {
+        "name": "Testing",
+        "additionalInfo": "JSDOM, Jest, Enzyme",
+        "level": "4"
+      },
+      {
+        "name": "Web Technologies",
+        "additionalInfo": "HTML5",
+        "level": "4.9"
+      },
+      {
+        "name": "CSS",
+        "additionalInfo": "CSS3, SASS, BEM",
+        "level": "4.8"
+      },
+      {
+        "name": "Asset bundling",
+        "additionalInfo": "NPM scripts, Webpack",
+        "level": "4.5"
+      },
+      {
+        "name": "Accessibility",
+        "additionalInfo": "WCAG 2.0 and 2.1, WAI-Aria",
+        "level": "4"
+      },
+      {
+        "name": "Continuous integration / deployment",
+        "additionalInfo": "Docker compose, Jenkins, netlify",
+        "level": "4"
+      },
+      {
+        "name": "Content management systems",
+        "additionalInfo": "Wordpress",
+        "level": "4.3"
+      },
+      {
+        "name": "Agile",
+        "additionalInfo": "Scrum, Jira, Trello",
+        "level": "4.6"
+      },
+      {
+        "name": "Digital design",
+        "additionalInfo": "Adobe Photoshop, Adobe Illustrator, Adobe Flash, Adobe XD, Figma",
+        "level": "4.6"
+      }
+    ],
+    "personal": [
+      {
+        "name": "Teamwork",
+        "additionalInfo": "Actively participating in all team discussions, quickly adapting to the environment, always striving for excellence",
+        "level": "5"
+      },
+      {
+        "name": "Problem-Solving",
+        "additionalInfo": "Determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.",
+        "level": "5"
+      },
+      {
+        "name": "Stakeholder Management",
+        "additionalInfo": "Answering key stakeholder queries. Updating stakeholders on project progress. Client relationship building and maintenance.",
+        "level": "5"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "onseo",
+      "dates": "2016 - 2022",
+      "roles": [
+        {
+          "name": "Software engineer",
+          "responsibilitiesAndProjects": {
+            "list": [
+              "Writing sustainable code that can be modified and scaled.",
+              "Interaction with designers and developers to create modern and user-friendly interfaces.",
+              "Working in a collaborative environment with shared code"
+            ]
+          }
+        },
+        {
+          "workedOn": "Slot machines, small one-page configuration tool to deploy configuration, proxy.",
+          "description": "While working on this project, I gained a lot of experience with a typed language and making visualizations of interesting slot design ideas and their behaviour, bringing to life various animation mechanisms. Assembling bit by bit into a whole slot machine.",
+          "usedTechnologies": "Typescript, l10ntool, Node.js, Express, pure MVC, Pixi, Rect.js",
+          "graphicTools": "Pixi-spine-viewer",
+          "tools": "Tools: Git, Jira, Visual Studio Code, PHPStorm"
+        },
+        {
+          "workedOn": "Web application (an admin panel)",
+          "description": "I created an admin panel that was made for the needs of a project that connected to an obd2 port to set up configurations and other options.",
+          "usedTechnologies": "UReact.js, esting-library, enzyme, Rest API",
+          "graphicTools": "AdobeXD, Zeplin, Figma",
+          "tools": "Git, Jira, Visual Studio Code"
+        },
+        {
+          "workedOn": "Web application (library of medical terms)",
+          "description": "I developed a library of medical terms for AIBody, a medical VR application.",
+          "usedTechnologies": "React.js",
+          "graphicTools": "Adobe Photoshop",
+          "tools": "Docker compose, Git, Jira"
+        },
+        {
+          "workedOn": "Mobile Application",
+          "description": "I was part of the frontend team that created a mobile application that gave car statistics and trio data. I  was responsible for building the Android application that interacted with the backend handled by other teams. The team developed many features for thi application.",
+          "usedTechnologies": "React native, Redux, swg, Rest API",
+          "graphicTools": "AdobeXD, Zeplin, Figma, Adobe Photoshop, Adobe Illustrator",
+          "tools": "Git, Jira, Visual Studio Code"
+        },
+        {
+          "workedOn": "Wordpress site",
+          "description": "I modified an existing wordpress site to use adaptive design and work for both mobile and desktop.",
+          "usedTechnologies": "JavaScript, Jquery, PHP, HTML5, CSS3, SCSS",
+          "graphicTools": "AdobeXD, Adobe Photoshop, PhpMyAdmin",
+          "tools": "Git, PHPStorm"
+        },
+        {
+          "workedOn": "Browser game",
+          "description": "I developed a backgammon game online in real-time using web sockets",
+          "usedTechnologies": "cocos.js, web sockets, HTML5, CSS3",
+          "graphicTools": "AdobeXD, Adobe Photoshop, PhpMyAdmin",
+          "tools": "Git, Visual Studio Code, cocosstudio"
+        },
+        {
+          "workedOn": "Crypto game",
+          "description": "I worked on a small project in which it was possible to buy plots of land for ether and resell them.",
+          "usedTechnologies": "cocos.js, web sockets, HTML5, CSS3",
+          "graphicTools": "Angular, Typescript, @angular/core/testing",
+          "tools": "Git, Visual Studio Code"
+        },
+        {
+          "workedOn": "wordpress, sites on angular framework, html5 bunners",
+          "description": "I worked on a small project in which it was possible to buy plots of land for ether and resell them.",
+          "usedTechnologies": "JavaScript, Jquery, PHP, HTML5,CSS3, Rest API, Angular",
+          "graphicTools": "Adobe Photoshop, Adobe Illustrator",
+          "tools": "Gitlab, Visual Studio Code, PhpMyAdmin"
+        }
+      ]
+    },
+    {
+      "company": "Win Interactive",
+      "roles": [
+        {
+          "name": "web developer and digital designer"
+        },
+        {
+          "dates": "2015 - 2016",
+          "workedOn": "I developed various web applications ",
+          "description": "This role was a transition period for me as I switched from Digital Designer to Web Developer. I worked hard on further improving my skills as well as ensuring that I can utilise my existing knowledge to its fullest potential. Seeing both sides of development process gave me a great insight and ability to contribute on both fronts when it was needed.",
+          "usedTechnologies": "JavaScript, Jquery, PHP, Angular, Wordpress, HTML5, CSS3, React.js, Bootstrap",
+          "graphicTools": "Adobe Photoshop, Adobe Illustrator",
+          "tools": "Adobe Photoshop, Adobe Flash, PhpMyAdmin"
+        },
+        {
+          "dates": "2012 - 2015",
+          "workedOn": "I developed various web applications ",
+          "description": "I worked as a digital designer for about a year and a half. Assembly of roulettes for casinos, slots, poker applications. Production of banners, preparation of artistic graphics for slots. The rest of this period I worked as a webdeveloper.",
+          "usedTechnologies": "JavaScript, Jquery, PHP, HTML5, CSS3, XMLconfiguration, Backbone.js, MySQL",
+          "graphicTools": "Adobe Photoshop, Adobe Flash",
+          "tools": "PhpMyAdmin"
+        },
+        {
+          "dates": "2012 - 2015",
+          "workedOn": "Graphic design",
+          "description": "I assembled roulettes for casino applications, created banners and prepared artistic graphics for slot machines.",
+          "usedTechnologies": "XMLconfiguration",
+          "graphicTools": "Adobe Photoshop, Adobe Illustrator, Adobe Flash"
+        }
+      ]
+    }
+  ],
+  "footer": {}
+}

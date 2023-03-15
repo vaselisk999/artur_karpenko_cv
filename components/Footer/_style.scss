@@ -1,0 +1,10 @@
+.footer {
+  &__git {
+    color: $text-color;
+    font-size: .9rem;
+
+    @media print {
+      display: none;
+    }
+  }
+}

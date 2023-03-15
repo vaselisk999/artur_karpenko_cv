@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/cv/service-worker.js')
+                .then(() => console.log('Service worker is registered'));
+        }
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="./common/images/favicon.ico" />
+    <title>Artur Karpenko - CV</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="assets/index.js" async defer></script>
+</head>
+
+<body>
+    <main id="cv"></main>
+</body>
+
+</html>

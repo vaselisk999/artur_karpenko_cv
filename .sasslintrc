@@ -1,0 +1,12 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "class-name-format": {
+      "allow-leading-underscore": false,
+      "convention": "strictbem"
+    },
+    "nesting-depth": {
+      "max-depth": 3
+    }
+  }
+}
