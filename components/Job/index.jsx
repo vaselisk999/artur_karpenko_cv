@@ -12,7 +12,8 @@ const Job = ({ company, roles, dates }) => (
     </h3>
     <ul className={`${baseClassName}__roles`}>
       {roles.map((value, index) => {
-        const { name, workedOn, dates, description, usedTechnologies, graphicTools, tools, responsibilitiesAndProjects } = value;
+        const { name, workedOn, dates, description, usedTechnologies, graphicTools, libs, responsibilitiesAndProjects } = value;
+
         return (
           <li key={index} className={`${baseClassName}__roles__role`}>
             {name && (
@@ -29,8 +30,8 @@ const Job = ({ company, roles, dates }) => (
             )}
             {workedOn && (
               <React.Fragment>
-                <h5 className="sub-title">Worked On:</h5>
-                <p className={`${baseClassName}__roles__role__workedOn`}>{workedOn}</p>
+                {/* <h5 className="sub-title worked-on">Worked On:</h5> */}
+                <p className={`${baseClassName}__roles__role__workedOn`}><strong>{workedOn}</strong></p>
               </React.Fragment>
             )}
             {description && (
@@ -39,25 +40,33 @@ const Job = ({ company, roles, dates }) => (
                 <p className={`${baseClassName}__roles__role__description`}>{description}</p>
               </React.Fragment>
             )}
-            {/* {usedTechnologies && (
-            <React.Fragment>
-              <h5 className="sub-title">Used Technologies:</h5>
-              <p className={`${baseClassName}__roles__role__usedTechnologies`}>{usedTechnologies}</p>
-            </React.Fragment>
-            
-          )} */}
-            {/* {graphicTools && (
-            <React.Fragment>
-              <h5 className="sub-title">Graphic Tools:</h5>
-              <p className={`${baseClassName}__roles__role__graphicTools`}>{graphicTools}</p>
-            </React.Fragment>
-          )} */}
-            {/* {tools && (
-            <React.Fragment>
-              <h5 className="sub-title">Tools:</h5>
-              <p className={`${baseClassName}__roles__role__tools`}>{tools}</p>
-            </React.Fragment>
-          )} */}
+            {usedTechnologies && (
+              <React.Fragment>
+                <h5 className="sub-title">Used Technologies:</h5>
+                <ul className={`${baseClassName}__roles__role__usedTechnologies`}>
+                  {
+                    value.usedTechnologies ?
+                      value.usedTechnologies.value.map((value, index) => {
+                        return <li>{value}</li>
+                      })
+                      : ""
+                  }
+                </ul>
+              </React.Fragment>
+
+            )}
+            {graphicTools && (
+              <React.Fragment>
+                <h5 className="sub-title">Graphic Tools:</h5>
+                <p className={`${baseClassName}__roles__role__graphicTools`}>{graphicTools}</p>
+              </React.Fragment>
+            )}
+            {libs && (
+              <React.Fragment>
+                <h5 className="sub-title">Tools:</h5>
+                <p className={`${baseClassName}__roles__role__tools`}>{libs}</p>
+              </React.Fragment>
+            )}
             {
               responsibilitiesAndProjects && (
                 <div className={`${baseClassName}__roles__role__responsibilities-and-projects`}>

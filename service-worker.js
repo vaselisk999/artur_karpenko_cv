@@ -5,11 +5,6 @@ const filesToCache = [
   '/cv/index.html',
   '/cv/assets/index.js',
   '/cv/assets/style.css',
-  '/cv/components/Contacts/images/email.svg',
-  '/cv/components/Contacts/images/linkedin.svg',
-  '/cv/components/Job/images/Apple.svg',
-  '/cv/components/Job/images/JohnLewis.svg',
-  '/cv/components/Job/images/Marks&Spencer.svg',
 ];
 
 self.addEventListener('install', (event) => { // eslint-disable-line no-restricted-globals

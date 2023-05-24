@@ -8,7 +8,7 @@ const Education = ({ education }) => (
     <h2 className={`${baseClassName}__heading`}>Education</h2>
 
     <ul className={`${baseClassName}__institutions`}>
-      {education.map(({ name, dates, diplomas }, index) => (
+      {education.map(({ name, dates, diplomas, description, skills }, index) => (
         <li key={index} className={`${baseClassName}__institutions__institution`}>
           <h3 className={`${baseClassName}__institutions__institution__name`}>{name}</h3>
 
@@ -16,9 +16,14 @@ const Education = ({ education }) => (
           <p className={`${baseClassName}__institutions__institution__dates`}>{dates}</p>
 
           <h4 className="hide-a11y">Diplomas and certifications</h4>
+
+          <p className={`${baseClassName}__institutions__institution__description`}>{description}</p>
+          <p className={`${baseClassName}__institutions__institution__description`}>{skills}</p>
           <ul className={`${baseClassName}__institutions__institution__diplomas`}>
             {diplomas.map((diploma, i) => (
-              <li key={i} className={`${baseClassName}__institutions__institution__diplomas__diploma`}>{diploma}</li>
+              <li key={i} className={`${baseClassName}__institutions__institution__diplomas__diploma`}>
+                <img src={`./assets/${diploma}`} alt="bootcamp" title="cerificate" />
+              </li>
             ))}
           </ul>
         </li>

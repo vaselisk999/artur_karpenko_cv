@@ -79,12 +79,17 @@
       
       &__usedTechnologies {
         margin-bottom: $base-spacing * 2;
-
+        margin-left: $base-spacing * 2;
+        list-style: circle;
+        &:li {
+          margin-bottom: 0;
+        }
         &:last-child {
           margin-bottom: 0;
         }
       }
       &__workedOn {
+        // margin-top: $base-spacing * 3;
         margin-bottom: $base-spacing * 2;
 
         &:last-child {
