@@ -46,25 +46,50 @@ class Header extends React.Component {
 
     return (
       <section className={baseClassName}>
-        <Contacts contacts={contacts} />
+        <div className={`${baseClassName}__top-section`}>
+          <Contacts contacts={contacts} />
 
-        <h1 className={`${baseClassName}__name`}>
-          {name}
-          <span className={`${baseClassName}__name__highlight`}>{surname}</span>
-        </h1>
+          <div className={`${baseClassName}__top-section__about`}>
+            <h1 className={`${baseClassName}__name`}>
+              {name}
+              <span className={`${baseClassName}__name__highlight`}>
+                {surname}
+              </span>
+            </h1>
 
-        <h2 className="hide-a11y">Who I am</h2>
-        <p className={`${baseClassName}__whoiam`}>{whoiam}</p>
+            <h2 className="hide-a11y">Who I am</h2>
+            <p className={`${baseClassName}__whoiam`}>{whoiam}</p>
+          </div>
+        </div>
 
         <h2 className="hide-a11y">About me</h2>
-        {<p className={`${baseClassName}__about-me`} dangerouslySetInnerHTML={{ __html: aboutMe[0] }} />}
+        <p
+          className={`${baseClassName}__about-me`}
+          dangerouslySetInnerHTML={{ __html: aboutMe[0] }}
+        />
 
-        <button type="button" className="read-more__trigger" aria-expanded={isReadMoreOpen} aria-controls={readMoreContentId} onClick={this.readMoreClickHandler}>
+        <button
+          type="button"
+          className="read-more__trigger"
+          aria-expanded={isReadMoreOpen}
+          aria-controls={readMoreContentId}
+          onClick={this.readMoreClickHandler}
+        >
           {`Read ${isReadMoreOpen ? 'less' : 'more'}`}
         </button>
-        <div id={readMoreContentId} className={`read-more__content${isReadMoreOpen ? ' read-more__content--open' : ''}`} aria-hidden={!isReadMoreOpen}>
+        <div
+          id={readMoreContentId}
+          className={`read-more__content${
+            isReadMoreOpen ? ' read-more__content--open' : ''
+          }`}
+          aria-hidden={!isReadMoreOpen}
+        >
           {aboutMe.slice(1).map((paragraph, index) => (
-            <p key={index} className={`${baseClassName}__about-me`} dangerouslySetInnerHTML={{ __html: paragraph }} />
+            <p
+              key={index}
+              className={`${baseClassName}__about-me`}
+              dangerouslySetInnerHTML={{ __html: paragraph }}
+            />
           ))}
         </div>
       </section>

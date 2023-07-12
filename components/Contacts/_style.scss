@@ -17,6 +17,11 @@
       margin-right: $base-spacing * 4;
     }
 
+    @media print {
+      display: block;
+      margin-bottom: $base-spacing;
+    }
+
     &:last-child {
       margin-right: 0;
     }
@@ -32,6 +37,10 @@
 
       @media screen and (min-width: $tablet-portrait) {
         height: 50px;
+      }
+
+      @media print {
+        height: 20px;
       }
 
       &__image {
