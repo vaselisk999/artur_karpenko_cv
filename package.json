@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --config=./jest.js --coverage",
     "lint": "npm run lint:js && npm run lint:sass",
-    "lint:js": "eslint --ext .js --ext .jsx .",
+    "lint:js": "eslint --fix --ext .js --ext .jsx .",
     "lint:sass": "sass-lint --verbose --no-exit",
     "bundle": "parcel build ./index.js ./style.scss --out-dir ./assets"
   },
