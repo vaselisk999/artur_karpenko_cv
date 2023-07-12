@@ -17,8 +17,8 @@ const App = ({ data }) => (
     />
     <Skills skills={data.skills} />
     <WorkExperience work={data.work} />
-    { data.education ?
-      <Education education={data.education} /> : ''
+    { data.education
+      ? <Education education={data.education} /> : ''
     }
     <Footer gitLink={data.footer.gitLink} />
   </React.Fragment>
