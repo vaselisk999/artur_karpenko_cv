@@ -20,15 +20,16 @@
       }
 
       &__description {
-        font-size: .75rem;
         font-weight: 700;
+      }
+
+      &__description,
+      &__skills {
         margin-bottom: $base-spacing * 2;
       }
 
       &__diplomas {
-    
         &__diploma {
-
           img {
             height: 200px;
             width: auto;
