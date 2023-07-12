@@ -25,7 +25,7 @@
   },
   "email": "vaselisk999@gmail.com",
   "skills": {
-    "valuenical": [
+    "technical": [
       {
         "name": "Javascript",
         "additionalInfo": "ES6 onwards, React, React Native, Typescript, JQuery, Node.js",
@@ -113,56 +113,95 @@
         {
           "workedOn": "Casino games, small one-page configuration tools to deploy configuration, proxy.",
           "description": "While working on this project, I gained a lot of experience with a typed language and making visualizations of interesting slot design ideas and their behaviour, bringing to life various animation mechanisms. Assembling bit by bit into a whole slot machine.",
-          "usedTechnologies": {"value":["Typescript", "l10ntool", "Node.js", "Express", "pureMVC", "Pixi.js"]},
+          "usedTechnologies": {
+            "value": [
+              "Typescript",
+              "l10ntool",
+              "Node.js",
+              "Express",
+              "pureMVC",
+              "Pixi.js"
+            ]
+          },
           "graphicTools": "Pixi-spine-viewer",
           "tools": "Tools: Git, Jira, Visual Studio Code, PHPStorm"
         },
         {
           "workedOn": "Web application (an admin panel)",
           "description": "I created an admin panel that was made for the needs of a project that connected to an obd2 port to set up configurations and other options.",
-          "usedTechnologies": {"value":["React.js", "Esting-library", "Enzyme", "Rest API", "i18next", "Enzyme", "rxjs", "recharts", "@mui"] },
+          "usedTechnologies": {
+            "value": [
+              "React.js",
+              "Esting-library",
+              "Enzyme",
+              "Rest API",
+              "i18next",
+              "Enzyme",
+              "rxjs",
+              "recharts",
+              "@mui"
+            ]
+          },
           "graphicTools": "AdobeXD, Zeplin, Figma",
           "tools": "Git, Jira, Visual Studio Code"
         },
         {
           "workedOn": "Web application (library of medical terms)",
           "description": "I developed a library of medical terms for AIBody, a medical VR application.",
-          "usedTechnologies": {"value":["React.js", "rxjs"]},
+          "usedTechnologies": { "value": ["React.js", "rxjs"] },
           "graphicTools": "Adobe Photoshop",
           "tools": "Docker compose, Git, Jira"
         },
         {
           "workedOn": "Mobile Application",
           "description": "I was part of the frontend team that created a mobile application that gave car statistics and trio data. I  was responsible for building the Android application that interacted with the backend handled by other teams. The team developed many features for thi application.",
-          "usedTechnologies": {"value":["React Native", "Redux", "Rest API"]},
+          "usedTechnologies": {
+            "value": ["React Native", "Redux", "Rest API"]
+          },
           "graphicTools": "AdobeXD, Zeplin, Figma, Adobe Photoshop, Adobe Illustrator",
           "tools": "Git, Jira, Visual Studio Code"
         },
         {
           "workedOn": "Wordpress site",
           "description": "I modified an existing wordpress site to use adaptive design and work for both mobile and desktop.",
-          "usedTechnologies": {"value":["JavaScript", "Jquery", "PHP", "HTML5", "CSS3", "SCSS"]},
+          "usedTechnologies": {
+            "value": ["JavaScript", "Jquery", "PHP", "HTML5", "CSS3", "SCSS"]
+          },
           "graphicTools": "AdobeXD, Adobe Photoshop, PhpMyAdmin",
           "tools": "Git, PHPStorm"
         },
         {
           "workedOn": "Browser game",
           "description": "I developed a backgammon game online in real-time using web sockets",
-          "usedTechnologies": {"value":["Cocos.js", "web sockets", "HTML5", "CSS3", "JQuery"]},
+          "usedTechnologies": {
+            "value": ["Cocos.js", "web sockets", "HTML5", "CSS3", "JQuery"]
+          },
           "graphicTools": "AdobeXD, Adobe Photoshop",
           "tools": "Git, Visual Studio Code, cocosstudio"
         },
         {
           "workedOn": "Crypto game",
           "description": "I worked on a small project in which it was possible to buy plots of land for ether and resell them.",
-          "usedTechnologies": {"value":["Angular 2", "Typescript", "@angular/core/testing"]},
+          "usedTechnologies": {
+            "value": ["Angular 2", "Typescript", "@angular/core/testing"]
+          },
           "graphicTools": "AdobeXD, Adobe Photoshop",
           "tools": "Git, Visual Studio Code"
         },
         {
           "workedOn": "Wordpress, sites on angular framework, html5 bunners .etc",
           "description": "I worked on a small project in which it was possible to buy plots of land for ether and resell them.",
-          "usedTechnologies": {"value":["JavaScript", "JQuery", "PHP", "HTML5", "CSS3", "Rest API", "Angular"]},
+          "usedTechnologies": {
+            "value": [
+              "JavaScript",
+              "JQuery",
+              "PHP",
+              "HTML5",
+              "CSS3",
+              "Rest API",
+              "Angular"
+            ]
+          },
           "graphicTools": "Adobe Photoshop, Adobe Illustrator",
           "tools": "Gitlab, Visual Studio Code, PhpMyAdmin"
         }
@@ -170,6 +209,7 @@
     },
     {
       "company": "win interactive",
+      "dates": "2012 - 2016",
       "roles": [
         {
           "name": "web developer and digital designer"
@@ -178,7 +218,20 @@
           "dates": "2015 - 2016",
           "workedOn": "I developed various web applications ",
           "description": "This role was a transition period for me as I switched from Digital Designer to Web Developer. I worked hard on further improving my skills as well as ensuring that I can utilise my existing knowledge to its fullest potential. Seeing both sides of development process gave me a great insight and ability to contribute on both fronts when it was needed.",
-          "usedTechnologies": {"value":["JavaScript", "JQuery", "PHP", "Angular", "Wordpress", "HTML5", "MySQL", "CSS3", "React.js", "Bootstrap"]},
+          "usedTechnologies": {
+            "value": [
+              "JavaScript",
+              "JQuery",
+              "PHP",
+              "Angular",
+              "Wordpress",
+              "HTML5",
+              "MySQL",
+              "CSS3",
+              "React.js",
+              "Bootstrap"
+            ]
+          },
           "graphicTools": "Adobe Photoshop, Adobe Illustrator",
           "tools": "Adobe Photoshop, Adobe Flash, PhpMyAdmin"
         },
@@ -186,7 +239,18 @@
           "dates": "2014 - 2015",
           "workedOn": "I developed various web applications ",
           "description": "I worked as a digital designer for about a year and a half. Assembly of roulettes for casinos, slots, poker applications. Production of banners, preparation of artistic graphics for slots. The rest of this period I worked as a webdeveloper.",
-          "usedTechnologies": {"value":["JavaScript", "JQuery", "PHP", "HTML5", "CSS3", "XML", "Backbone.js", "MySQL"]},
+          "usedTechnologies": {
+            "value": [
+              "JavaScript",
+              "JQuery",
+              "PHP",
+              "HTML5",
+              "CSS3",
+              "XML",
+              "Backbone.js",
+              "MySQL"
+            ]
+          },
           "graphicTools": "Adobe Photoshop, Adobe Flash",
           "tools": "PhpMyAdmin"
         },
@@ -194,7 +258,7 @@
           "dates": "2012 - 2014",
           "workedOn": "Graphic design",
           "description": "I assembled roulettes for casino applications, created banners and prepared artistic graphics for slot machines.",
-          "usedTechnologies": {"value": ["XML"]},
+          "usedTechnologies": { "value": ["XML"] },
           "graphicTools": "Adobe Photoshop, Adobe Illustrator, Adobe Flash"
         }
       ]
@@ -203,7 +267,7 @@
   "education": [
     {
       "name": "EdX",
-      "dates": "November 15 - March 24",
+      "dates": "15th November 2022 - 24th March 2023",
       "description": "Trilogy's Skills Bootcamp Front-End Web Development",
       "skills": "GitHub, Git, Jest, jQuery, React.js, JavaScript, Cascading Style Sheets (CSS), HTML5",
       "diplomas": ["bootcampL.png"]
