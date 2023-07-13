@@ -17,6 +17,10 @@
     "github": {
       "printText": "https://github.com/vaselisk999",
       "link": "https://github.com/vaselisk999"
+    },
+    "portfolio": {
+      "printText": "https://vaselisk999.github.io/AK_portfolio/#/",
+      "link": "https://vaselisk999.github.io/AK_portfolio/#/"
     }
   },
   "email": "vaselisk999@gmail.com",

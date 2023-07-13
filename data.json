@@ -18,12 +18,13 @@
       "printText": "https://github.com/vaselisk999",
       "link": "https://github.com/vaselisk999"
     },
-    "portfolio": {
-      "printText": "https://vaselisk999.github.io/AK_portfolio/#/",
-      "link": "https://vaselisk999.github.io/AK_portfolio/#/"
+    "phone": {
+      "printText": "+4407578915665",
+      "link": "tel:+4407578915665"
     }
   },
   "email": "vaselisk999@gmail.com",
+  "phone": "+4407578915665",
   "skills": {
     "technical": [
       {
@@ -265,6 +266,13 @@
     }
   ],
   "education": [
+    {
+      "name": "https://itcareerswitch.co.uk/",
+      "dates": "15th November 2023 - current",
+      "description": "Full-Stack Development course",
+      "skills": "HTML5, CSS3, JavaScript, React, Python, SQL, Python, Bootstrap, JQuery and PHP",
+      "diplomas": []
+    },
     {
       "name": "EdX",
       "dates": "15th November 2022 - 24th March 2023",
